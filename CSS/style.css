@@ -1,0 +1,358 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 2%,
+    rgba(205, 249, 255, 1) 16%,
+    rgba(174, 249, 255, 1) 35%,
+    rgba(131, 229, 255, 1) 64%,
+    rgba(255, 255, 255, 1) 98%
+  );
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: auto;
+}
+
+nav {
+  padding: 0.5em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav div {
+  display: flex;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 3em;
+  align-items: center;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a div:hover {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(24, 248, 249, 1) 82%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.home,
+.profile,
+.achievement,
+.message {
+  background: #8fd5ff;
+  background: linear-gradient(
+    90deg,
+    rgba(143, 213, 255, 1) 4%,
+    rgba(254, 254, 254, 1) 46%,
+    rgba(168, 246, 249, 1) 100%
+  );
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.greeting {
+  display: flex;
+  padding: 2%;
+  border-radius: 15px;
+  background: rgb(84, 223, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 223, 239, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(139, 238, 250, 1) 100%
+  );
+  margin-top: 0.5em;
+  width: 90%;
+  align-items: center;
+  justify-content: left;
+}
+
+.greeting h2 {
+  font-size: 2rem;
+  margin-left: 0;
+  color: black;
+  display: flex;
+}
+
+.home,
+.profile,
+.achievement,
+.message {
+  margin-right: 5px;
+}
+
+.color-carousel {
+  background: rgb(84, 223, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(84, 223, 239, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(139, 238, 250, 1) 100%
+  );
+  border-radius: 2em;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.facilities {
+  text-indent: 5%;
+  padding: 0.3em;
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  margin: 1em 1em 0.1em 0.1em;
+}
+
+.image img {
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  border: 2px solid black;
+}
+
+.image img:hover {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(24, 248, 249, 1) 82%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.circleimage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 9em;
+  height: 11em;
+}
+
+.circleimage a {
+  text-decoration: none;
+  color: black;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+}
+
+#born,
+#username {
+  width: 100%;
+  border-radius: 2em;
+}
+
+#comment {
+  padding: 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  background-color: brown;
+}
+
+.content > div {
+  display: flex;
+  flex: 1;
+  align-content: center;
+  justify-content: center;
+}
+
+form {
+  width: 10em;
+}
+
+form .input {
+  width: 20em;
+  background-color: rgb(255, 0, 0);
+  height: 15em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 55% 1px 14em;
+  gap: 15px;
+  width: 100%;
+  padding: 0.4em;
+}
+
+form input,
+textarea {
+  border: 1px solid black;
+  border-radius: 1px;
+  padding: 0.6em;
+}
+
+#btnSubmit {
+  min-width: 20em;
+  background-color: rgb(217, 217, 217);
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  margin-bottom: 5%;
+  padding: 2%;
+  border-radius: 2em;
+}
+
+.sexuality {
+  display: flex;
+  width: 100%;
+}
+
+.gender {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.gender label {
+  display: flex;
+  width: 100%;
+  word-wrap: normal;
+}
+
+.gender input {
+  margin-right: 0.3em;
+}
+
+.sexuality > label {
+  margin-right: 5em;
+}
+
+.container-div1 {
+  margin: 1em;
+}
+
+.div1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.1em;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em;
+  gap: 2em;
+  justify-content: space-between;
+}
+
+.output {
+  word-wrap: break-word;
+  border: 1px solid black;
+  border-radius: 1em;
+  height: 22em;
+  width: 20em;
+}
+
+.output .grid {
+  padding: 0.5em;
+  grid-template-columns: 27% 3px 10em;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    padding: 0.5em;
+  }
+
+  nav div {
+    font-size: 0.6rem;
+    padding: 1.3em;
+  }
+
+  .div1 {
+    justify-content: space-between;
+  }
+
+  .image {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .div1 {
+    justify-content: space-around;
+  }
+
+  .image {
+    margin-left: 6em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .image {
+    margin-left: 6em;
+  }
+}
+
+/* STYLE OUR PROFILE */
+.container2 {
+  margin: 3em;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    1800deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(196, 252, 244, 1) 18%,
+    rgba(170, 233, 228, 1) 37%,
+    rgba(145, 255, 241, 1) 57%,
+    rgba(124, 225, 238, 1) 78%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 2em;
+  border-radius: 5em;
+}
+
+.container2 h2 {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.container2 p {
+  margin-left: 2em;
+  text-align: justify;
+}
