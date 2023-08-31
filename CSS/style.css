@@ -63,6 +63,7 @@ nav a div:hover {
 .profile,
 .achievement,
 .message {
+  margin-right: 5px;
   background: #8fd5ff;
   background: linear-gradient(
     90deg,
@@ -103,13 +104,6 @@ header {
   display: flex;
 }
 
-.home,
-.profile,
-.achievement,
-.message {
-  margin-right: 5px;
-}
-
 .color-carousel {
   background: rgb(84, 223, 239);
   background: linear-gradient(
@@ -130,10 +124,15 @@ hr {
   padding: 0.3em;
 }
 
+.containerimage {
+  display: flex;
+  width: 100%;
+}
+
 .image {
   display: flex;
   width: 100%;
-  margin: 1em 1em 0.1em 0.1em;
+  margin: 1em 0 0.1em 0.1em;
 }
 
 .image img {
@@ -231,7 +230,17 @@ textarea {
 
 #btnSubmit {
   min-width: 20em;
-  background-color: rgb(217, 217, 217);
+  background: #8fd5ff;
+  background: linear-gradient(
+    90deg,
+    rgba(143, 213, 255, 1) 4%,
+    rgba(254, 254, 254, 1) 46%,
+    rgba(168, 246, 249, 1) 100%
+  );
+  border-radius: 2em ;
+  border: 1px solid black ;
+  
+  
 }
 
 textarea {
@@ -293,6 +302,13 @@ textarea {
 .output .grid {
   padding: 0.5em;
   grid-template-columns: 27% 3px 10em;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
 }
 
 @media screen and (max-width: 767px) {
